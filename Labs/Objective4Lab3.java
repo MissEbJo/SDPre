@@ -11,5 +11,6 @@ public class Objective4Lab3 {
     currentYear = 2017;
     birthYear = currentYear - age;
     System.out.println("You were born in " + birthYear);
+    input.close();
   }
 }
